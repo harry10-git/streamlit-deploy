@@ -11,6 +11,7 @@ from mlxtend.plotting import plot_decision_regions
 from sklearn.metrics import accuracy_score
 
 st.title("ML Mini-Project")
+st.text("By Sreya and Harry")
 
 classifier_name = st.sidebar.selectbox("Select Classifier", ("Decision Tree", "SVM", "Random Forest"))
 kernel_user = 'linear'
